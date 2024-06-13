@@ -1,0 +1,507 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "@openzeppelin/contracts/access/Ownable.sol:Ownable": {
+        "src": "@openzeppelin\\contracts\\access\\Ownable.sol:20",
+        "inherit": [
+          "@openzeppelin/contracts/utils/Context.sol:Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "owner()",
+          "renounceOwnership()",
+          "transferOwnership(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Ownable",
+            "src": "@openzeppelin\\contracts\\access\\Ownable.sol:28"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Ownable",
+              "src": "@openzeppelin\\contracts\\access\\Ownable.sol:21"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/interfaces/draft-IERC1822.sol:IERC1822Proxiable": {
+        "src": "@openzeppelin\\contracts\\interfaces\\draft-IERC1822.sol:10",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "proxiableUUID()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy": {
+        "src": "@openzeppelin\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol:15",
+        "version": {
+          "withMetadata": "5e80065656ff53b9dcdc91376da51aca415fd7f3a1d394d246d573b799119437",
+          "withoutMetadata": "5e80065656ff53b9dcdc91376da51aca415fd7f3a1d394d246d573b799119437",
+          "linkedWithoutMetadata": "5e80065656ff53b9dcdc91376da51aca415fd7f3a1d394d246d573b799119437"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol:ERC1967Upgrade",
+          "@openzeppelin/contracts/proxy/Proxy.sol:Proxy"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "ERC1967Proxy",
+            "src": "@openzeppelin\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol:22"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol:ERC1967Upgrade": {
+        "src": "@openzeppelin\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol:19",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/Proxy.sol:Proxy": {
+        "src": "@openzeppelin\\contracts\\proxy\\Proxy.sol:16",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol:BeaconProxy": {
+        "src": "@openzeppelin\\contracts\\proxy\\beacon\\BeaconProxy.sol:18",
+        "version": {
+          "withMetadata": "384332ee6efb3c4cf884c9b14ad24463c3d45fe1e34fba9b4b0d404e2918710d",
+          "withoutMetadata": "384332ee6efb3c4cf884c9b14ad24463c3d45fe1e34fba9b4b0d404e2918710d",
+          "linkedWithoutMetadata": "384332ee6efb3c4cf884c9b14ad24463c3d45fe1e34fba9b4b0d404e2918710d"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol:ERC1967Upgrade",
+          "@openzeppelin/contracts/proxy/Proxy.sol:Proxy"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "BeaconProxy",
+            "src": "@openzeppelin\\contracts\\proxy\\beacon\\BeaconProxy.sol:30"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/beacon/IBeacon.sol:IBeacon": {
+        "src": "@openzeppelin\\contracts\\proxy\\beacon\\IBeacon.sol:9",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "implementation()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol:UpgradeableBeacon": {
+        "src": "@openzeppelin\\contracts\\proxy\\beacon\\UpgradeableBeacon.sol:16",
+        "version": {
+          "withMetadata": "476ed03d74c5e3dd3e01285f40ce67f5e33e962012188f4da82cba4a5be201fc",
+          "withoutMetadata": "476ed03d74c5e3dd3e01285f40ce67f5e33e962012188f4da82cba4a5be201fc",
+          "linkedWithoutMetadata": "476ed03d74c5e3dd3e01285f40ce67f5e33e962012188f4da82cba4a5be201fc"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/access/Ownable.sol:Ownable",
+          "@openzeppelin/contracts/utils/Context.sol:Context",
+          "@openzeppelin/contracts/proxy/beacon/IBeacon.sol:IBeacon"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address)",
+          "implementation()",
+          "upgradeTo(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "UpgradeableBeacon",
+            "src": "@openzeppelin\\contracts\\proxy\\beacon\\UpgradeableBeacon.sol:28"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Ownable",
+              "src": "@openzeppelin\\contracts\\access\\Ownable.sol:21"
+            },
+            {
+              "label": "_implementation",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_address",
+              "contract": "UpgradeableBeacon",
+              "src": "@openzeppelin\\contracts\\proxy\\beacon\\UpgradeableBeacon.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol:ProxyAdmin": {
+        "src": "@openzeppelin\\contracts\\proxy\\transparent\\ProxyAdmin.sol:13",
+        "version": {
+          "withMetadata": "a0e799cc3adadbafcd5a8225165cb5a4130dde3c606bb66c0492a2f19a636811",
+          "withoutMetadata": "a0e799cc3adadbafcd5a8225165cb5a4130dde3c606bb66c0492a2f19a636811",
+          "linkedWithoutMetadata": "a0e799cc3adadbafcd5a8225165cb5a4130dde3c606bb66c0492a2f19a636811"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/access/Ownable.sol:Ownable",
+          "@openzeppelin/contracts/utils/Context.sol:Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "getProxyImplementation(address)",
+          "getProxyAdmin(address)",
+          "changeProxyAdmin(address,address)",
+          "upgrade(address,address)",
+          "upgradeAndCall(address,address,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Ownable",
+              "src": "@openzeppelin\\contracts\\access\\Ownable.sol:21"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol:TransparentUpgradeableProxy": {
+        "src": "@openzeppelin\\contracts\\proxy\\transparent\\TransparentUpgradeableProxy.sol:29",
+        "version": {
+          "withMetadata": "6a4ef9989b132c95b74a7e88ba0bc34004f4d28c3a108f3e2f9cb26f9453fc89",
+          "withoutMetadata": "6a4ef9989b132c95b74a7e88ba0bc34004f4d28c3a108f3e2f9cb26f9453fc89",
+          "linkedWithoutMetadata": "6a4ef9989b132c95b74a7e88ba0bc34004f4d28c3a108f3e2f9cb26f9453fc89"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy",
+          "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol:ERC1967Upgrade",
+          "@openzeppelin/contracts/proxy/Proxy.sol:Proxy"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address,address,bytes)",
+          "admin()",
+          "implementation()",
+          "changeAdmin(address)",
+          "upgradeTo(address)",
+          "upgradeToAndCall(address,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "TransparentUpgradeableProxy",
+            "src": "@openzeppelin\\contracts\\proxy\\transparent\\TransparentUpgradeableProxy.sol:34"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/utils/Address.sol:Address": {
+        "src": "@openzeppelin\\contracts\\utils\\Address.sol:9",
+        "version": {
+          "withMetadata": "262d77ecd757eb9830da87bf426f285c7637c96758b505e63ff6e3ab72b48f95",
+          "withoutMetadata": "262d77ecd757eb9830da87bf426f285c7637c96758b505e63ff6e3ab72b48f95",
+          "linkedWithoutMetadata": "262d77ecd757eb9830da87bf426f285c7637c96758b505e63ff6e3ab72b48f95"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          },
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin\\contracts\\utils\\Address.sol:191"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/utils/Context.sol:Context": {
+        "src": "@openzeppelin\\contracts\\utils\\Context.sol:16",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "@openzeppelin/contracts/utils/StorageSlot.sol:StorageSlot": {
+        "src": "@openzeppelin\\contracts\\utils\\StorageSlot.sol:32",
+        "version": {
+          "withMetadata": "2ae824deb11abafaa520c0a6ffe881dfdeea8f64be812fdd5b0b1a437ef67bfb",
+          "withoutMetadata": "2ae824deb11abafaa520c0a6ffe881dfdeea8f64be812fdd5b0b1a437ef67bfb",
+          "linkedWithoutMetadata": "2ae824deb11abafaa520c0a6ffe881dfdeea8f64be812fdd5b0b1a437ef67bfb"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      },
+      "contracts/Crowdfund.sol:CrowdfundingCampaign": {
+        "src": "contracts\\Crowdfund.sol:4",
+        "version": {
+          "withMetadata": "ead098e307e1e8e16999cfe738e4fa9ed93800377fe270c9a0f8b1ba9cf13b30",
+          "withoutMetadata": "ead098e307e1e8e16999cfe738e4fa9ed93800377fe270c9a0f8b1ba9cf13b30",
+          "linkedWithoutMetadata": "ead098e307e1e8e16999cfe738e4fa9ed93800377fe270c9a0f8b1ba9cf13b30"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "contribute()",
+          "withdrawFunds()",
+          "getTotalFundsRaised()",
+          "getFundingGoal()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CrowdfundingCampaign",
+            "src": "contracts\\Crowdfund.sol:13"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "CrowdfundingCampaign",
+              "src": "contracts\\Crowdfund.sol:5"
+            },
+            {
+              "label": "fundingGoal",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_uint256",
+              "contract": "CrowdfundingCampaign",
+              "src": "contracts\\Crowdfund.sol:6"
+            },
+            {
+              "label": "totalFundsRaised",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CrowdfundingCampaign",
+              "src": "contracts\\Crowdfund.sol:7"
+            },
+            {
+              "label": "contributions",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "CrowdfundingCampaign",
+              "src": "contracts\\Crowdfund.sol:8"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.17"
+      }
+    }
+  ]
+}
