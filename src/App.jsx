@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import ConnectBtn from './ConnectWallet';
-import CrowdfundingCampaign from '../../deployments-zk/zkSyncSepoliaTestnet/contracts/Crowdfund.sol/CrowdfundingCampaign.json';
+import CrowdfundingCampaign from '../hello-zksync-quickstart/deployments-zk/zkSyncSepoliaTestnet/contracts/Crowdfund.sol/CrowdfundingCampaign.json';
 import { ethers } from 'ethers';
 import { Contract, BrowserProvider, Provider } from "zksync-ethers";
 import Modal from './Modal';
