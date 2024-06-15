@@ -1,8 +1,13 @@
-# React + Vite
+# HOW TO CREATE CROWDFUNDING DAPP USING zkSYNC PRE WRITTEN SMART CONTRACT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## TABLE OF CONTENTS
 
-Currently, two official plugins are available:
+1. Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. How to install zkSync
+
+3. How to deploy the smart contract on zkSYNC
+
+4. How to create the application UI
+
+5. How to integrate the smart contract with frontend
