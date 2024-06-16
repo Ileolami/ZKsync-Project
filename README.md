@@ -54,8 +54,14 @@ npx zksync-cli@latest create --template qs-fs-hello-zksync hello-zksync-foundry-
 cd hello-zksync-foundry-quickstart
 ```
 
+You will be asked to input your private key, grab the private key from your account and input it
+
 Use this video as a guide:
 [![Watch the video](Media/Screenshot 2024-06-16 202325.png)(https://go.screenpal.com/watch/cZ1DFNVNdQI)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
+
+After a Successful installation, you will see the following file:
+
+![Folder](Media/folder.png)
 
 ## How to deploy the smart contract on zkSYNC
 
