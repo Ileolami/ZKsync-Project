@@ -48,6 +48,7 @@ For Hardhat 👇
 npx zksync-cli@latest create --template qs-hello-zksync hello-zksync-quickstart
 cd hello-zksync-quickstart
 
+
 For foundry
 
 ```shell
