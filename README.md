@@ -178,6 +178,8 @@ Check out the image below to see how:
       </div>
     </div>
     </main>
-    ```
+```
+
+Note: The CSS has already been added to this
 
 ## How to integrate the smart contract with frontend
