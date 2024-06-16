@@ -55,7 +55,7 @@ cd hello-zksync-foundry-quickstart
 ```
 
 Use this video as a guide:
-[![Watch the video](https://go.screenpal.com/watch/cZ1DFNVNdQI)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
+[![Watch the video](Media/Screenshot 2024-06-16 202325.png)(https://go.screenpal.com/watch/cZ1DFNVNdQI)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
 
 ## How to deploy the smart contract on zkSYNC
 
