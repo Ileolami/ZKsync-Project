@@ -100,6 +100,44 @@ After compilation, you see additional folder like this:
 
 ## How to deploy the smart contract on zkSYNC
 
+In order to deploy the smart contract, you will need to deploy with script using the `deploy.ts` file uder the deploy folder. Run the following command:
+
+For npm:
+
+```shell
+npx hardhat deploy-zksync --script deploy.ts
+```
+
+for yarn:
+
+```shell
+yarn hardhat deploy-zksync --script deploy.ts
+```
+
+for pnpm:
+
+```shell
+pnpm exec hardhat deploy-zksync --script deploy.ts
+```
+
+for bun:
+
+```shell
+bun run hardhat deploy-zksync --script deploy.ts
+```
+
+ The deploy keyword will trigger the `deploy` script command on `package.json`
+
+Use this video as a guide: [watch this video](https://go.screenpal.com/watch/cZ1DY2VNd2g)
+
+Upon successful deployment, you will get an output containing the contract address, source, and encoded constructor arguments as show below.
+
+![Deploy](Media/Success-depoly.png)
+
+You can also get the contract address from the `CrowdfundingCampaign.json` under `Contract` folder as shown below.
+
+![Deploy](Media/address-json.png)
+
 ## How to create the application UI
 
 ## How to integrate the smart contract with frontend
