@@ -6,11 +6,13 @@
 
 2. [How to install zkSync](#how-to-install-zksync)
 
-3. [How to deploy the smart contract on zkSYNC](#how-to-deploy-the-smart-contract-on-zksync)
+3. [How to compile the smart contract](#how-to-compile-the-smart-contract)
 
-4. [How to create the application UI](#how-to-create-the-application-ui)
+4. [How to deploy the smart contract on zkSYNC](#how-to-deploy-the-smart-contract-on-zksync)
 
-5. [How to integrate the smart contract with frontend](#how-to-integrate-the-smart-contract-with-frontend)
+5. [How to create the application UI](#how-to-create-the-application-ui)
+
+6. [How to integrate the smart contract with frontend](#how-to-integrate-the-smart-contract-with-frontend)
 
 ### Prerequisites
 
@@ -55,11 +57,38 @@ cd hello-zksync-foundry-quickstart
 You will be asked to input your private key, grab the private key from your account and input it
 
 Use this video as a guide:
-[![Watch the video](Media/Screenshot 2024-06-16 202325.png)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
+[![Watch the video]](https://go.screenpal.com/watch/cZ1DFNVNdQI)
 
 After a Successful installation, you will see the following file:
 
 ![Folder](Media/folder.png)
+
+## How to compile the smart contract
+
+To deploy the smart contract, run the following command:
+For npm:
+
+```shell
+npm run compile
+```
+
+for yarn:
+
+```shell
+yarn compile
+```
+
+for pnpm:
+
+```shell
+pnpm run compile
+```
+
+for bun:
+
+```shell
+bun run compile
+```
 
 ## How to deploy the smart contract on zkSYNC
 
