@@ -40,8 +40,6 @@ zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity
 
 ## How to install zkSync
 
-1. Run this command in your terminal:
-
 ```shell
 npx zksync-cli@latest create --template qs-hello-zksync hello-zksync-quickstart
 cd hello-zksync-quickstart
@@ -57,7 +55,7 @@ cd hello-zksync-foundry-quickstart
 You will be asked to input your private key, grab the private key from your account and input it
 
 Use this video as a guide:
-[![Watch the video](Media/Screenshot 2024-06-16 202325.png)(https://go.screenpal.com/watch/cZ1DFNVNdQI)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
+[![Watch the video](Media/Screenshot 2024-06-16 202325.png)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
 
 After a Successful installation, you will see the following file:
 
