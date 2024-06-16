@@ -126,7 +126,7 @@ for bun:
 bun run hardhat deploy-zksync --script deploy.ts
 ```
 
- The deploy keyword will trigger the `deploy` script command on `package.json`
+The deploy keyword will trigger the `deploy` script command on `package.json`
 
 Use this video as a guide: [watch this video](https://go.screenpal.com/watch/cZ1DY2VNd2g)
 
