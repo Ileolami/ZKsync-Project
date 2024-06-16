@@ -43,13 +43,17 @@ zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity
 1. Run this command in your terminal
 
 For Hardhat 👇
+
 ```shell
 npx zksync-cli@latest create --template qs-hello-zksync hello-zksync-quickstart
 cd hello-zksync-quickstart
 
 For foundry
+
 ```shell
 npx zksync-cli@latest create --template qs-fs-hello-zksync hello-zksync-foundry-quickstart
 cd hello-zksync-foundry-quickstart
 
-Use this video as a  guide [![Watch the video](https://go.screenpal.com/watch/cZ1DFNVNdQI)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
+
+Use this video as a guide 
+[![Watch the video](https://go.screenpal.com/watch/cZ1DFNVNdQI)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
