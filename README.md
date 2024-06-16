@@ -2,23 +2,23 @@
 
 ## TABLE OF CONTENTS
 
-1. Introduction
+1. [Introduction](#introduction)
 
-2. How to install zkSync
+2. [How to install zkSync](#how-to-install-zksync)
 
-3. How to deploy the smart contract on zkSYNC
+3. [How to deploy the smart contract on zkSYNC](#how-to-deploy-the-smart-contract-on-zksync)
 
-4. How to create the application UI
+4. [How to create the application UI](#how-to-create-the-application-ui)
 
-5. How to integrate the smart contract with frontend
+5. [How to integrate the smart contract with frontend](#how-to-integrate-the-smart-contract-with-frontend)
 
-## Prerequisites
+### Prerequisites
 
 1. You have must have knowledge in React.js or any other js framework or library
 
 2. You have must have a Code editor installed such as VScode
 
-## Technologies needed
+### Technologies needed
 
 1. Node.js
 
@@ -34,7 +34,7 @@
 
 7. TailwindCSS or any other CSS framework or library for styling purposes
 
-### Introduction
+## Introduction
 
 zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity proofs to provide scalable and low-cost transactions on Ethereum. In zkSync Era, computation is performed off-chain and most data is stored off-chain as well. As all transactions are proven on the Ethereum mainchain, users enjoy the same security level as in Ethereum. [Learn More](https://ileolami.hashnode.dev/deep-dive-into-zksync-protocol#heading-an-overview-of-zksync)
 
@@ -56,3 +56,9 @@ cd hello-zksync-foundry-quickstart
 
 Use this video as a guide:
 [![Watch the video](https://go.screenpal.com/watch/cZ1DFNVNdQI)](https://go.screenpal.com/watch/cZ1DFNVNdQI)
+
+## How to deploy the smart contract on zkSYNC
+
+## How to create the application UI
+
+## How to integrate the smart contract with frontend
