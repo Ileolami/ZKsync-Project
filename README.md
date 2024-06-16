@@ -140,4 +140,46 @@ You can also get the contract address from the `CrowdfundingCampaign.json` under
 
 ## How to create the application UI
 
+In order to make your file more organised, create a new folder and move all the files and folder into the new folder you just created.
+Check out the image below to see how:
+
+![Backend Folder](Media/backendfolder.png)
+
+1. Install the any Js framework or library you want to use(I will be using [Vite.js and React.js](https://vitejs.dev/guide/))
+
+2. Install the any CSS framework or library you want to use(I will be using [TailwindCSS](https://tailwindcss.com/docs/installation/framework-guides))
+
+3. Clear out the existing from the `App.jsx` file and add the following to your:
+
+```shell
+<main className="min-h-screen bg-gradient-to-r from-green-400 to-blue-500 p-10">
+        <div className='flex justify-between'>
+          <p className=' text-lg p-5 h-16 w-62 bg-neutral-100 text-center rounded-2xl shadow-2xl'>Funding Goal:<span className="font-bold text-red-500">0</span> </p>
+        </div>
+      <Modal isOpen={isModalOpen} setIsOpen={setIsModalOpen} title={title} Message={Message} />
+      <div className='flex items-center justify-center'>
+      <div className="bg-white p-8 rounded-lg shadow-2xl w-96">
+        <h1 className="text-3xl mb-6 text-center text-blue-500">Crowdfund Contract</h1>
+        <p className="text-xl mb-6 text-center">Total Funds Raised: <span className="font-bold text-green-500">{totalFundsRaised}</span> Ether</p>
+        <div className="mb-6">
+          <label className="block mb-2 text-gray-700">Contribution Amount</label>
+          <input 
+          type="number" 
+          className="border-2 border-blue-500 rounded px-3 py-2 w-full outline-none" 
+          placeholder="Enter amount in Ether" 
+          />
+        </div>
+        <div className="flex justify-between">
+          <button 
+          onClick={contribute}
+          className="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">Contribute</button>
+          <button 
+          onClick={withdraw}
+          className="bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded">Withdraw Funds</button>
+        </div>
+      </div>
+    </div>
+    </main>
+    ```
+
 ## How to integrate the smart contract with frontend
