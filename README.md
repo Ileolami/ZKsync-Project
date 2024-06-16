@@ -160,7 +160,7 @@ Check out the image below to see how:
       <div className='flex items-center justify-center'>
       <div className="bg-white p-8 rounded-lg shadow-2xl w-96">
         <h1 className="text-3xl mb-6 text-center text-blue-500">Crowdfund Contract</h1>
-        <p className="text-xl mb-6 text-center">Total Funds Raised: <span className="font-bold text-green-500">{totalFundsRaised}</span> Ether</p>
+        <p className="text-xl mb-6 text-center">Total Funds Raised: <span className="font-bold text-green-500">0</span> Ether</p>
         <div className="mb-6">
           <label className="block mb-2 text-gray-700">Contribution Amount</label>
           <input 
@@ -171,10 +171,8 @@ Check out the image below to see how:
         </div>
         <div className="flex justify-between">
           <button 
-          onClick={contribute}
           className="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">Contribute</button>
           <button 
-          onClick={withdraw}
           className="bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded">Withdraw Funds</button>
         </div>
       </div>
