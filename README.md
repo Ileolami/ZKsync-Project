@@ -57,7 +57,7 @@ cd hello-zksync-foundry-quickstart
 You will be asked to input your private key, grab the private key from your account and input it
 
 Use this video as a guide:
-[![Watch the video]](https://go.screenpal.com/watch/cZ1DFNVNdQI)
+[Watch the video](https://go.screenpal.com/watch/cZ1DFNVNdQI)
 
 After a Successful installation, you will see the following file:
 
@@ -66,6 +66,7 @@ After a Successful installation, you will see the following file:
 ## How to compile the smart contract
 
 To deploy the smart contract, run the following command:
+
 For npm:
 
 ```shell
@@ -93,7 +94,8 @@ bun run compile
 Use this video as guide:
 [watch this video](https://go.screenpal.com/watch/cZ1DqsVNdI2)
 
-After compilation, you see additional folder like this: 
+After compilation, you see additional folder like this:
+
 ![Compile](Media/compile%20folder.png)
 
 ## How to deploy the smart contract on zkSYNC
