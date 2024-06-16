@@ -12,7 +12,9 @@
 
 5. [How to create the application UI](#how-to-create-the-application-ui)
 
-6. [How to integrate the smart contract with frontend](#how-to-integrate-the-smart-contract-with-frontend)
+6. [How to create Connect Wallet](#how-to-create-connect-wallet)
+
+7. [How to integrate the smart contract with frontend](#how-to-integrate-the-smart-contract-with-frontend)
 
 ### Prerequisites
 
@@ -183,5 +185,7 @@ Check out the image below to see how:
 ```
 
 Note: The CSS has already been added to this
+
+## How to create Connect Wallet
 
 ## How to integrate the smart contract with frontend
