@@ -90,6 +90,12 @@ for bun:
 bun run compile
 ```
 
+Use this video as guide:
+[watch this video](https://go.screenpal.com/watch/cZ1DqsVNdI2)
+
+After compilation, you see additional folder like this: 
+![Compile](Media/compile%20folder.png)
+
 ## How to deploy the smart contract on zkSYNC
 
 ## How to create the application UI
