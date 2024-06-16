@@ -38,7 +38,7 @@
 
 ## Introduction
 
-zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity proofs to provide scalable and low-cost transactions on Ethereum. In zkSync Era, computation is performed off-chain and most data is stored off-chain as well. As all transactions are proven on the Ethereum mainchain, users enjoy the same security level as in Ethereum. [Learn More](https://ileolami.hashnode.dev/deep-dive-into-zksync-protocol#heading-an-overview-of-zksync)
+zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity proofs to provide scalable and low-cost transactions on Ethereum. In zkSync Era, computation is performed off-chain and most data is stored off-chain as well. As all transactions are proven on the Ethereum mainchain, users enjoy the same security level as in Ethereum. [Learn More](hhttps://ileolami.hashnode.dev/deep-dive-into-zksync-protocol)
 
 ## How to install zkSync
 
@@ -145,7 +145,7 @@ Check out the image below to see how:
 
 ![Backend Folder](Media/backendfolder.png)
 
-1. Install the any Js framework or library you want to use(I will be using [Vite.js and React.js](https://vitejs.dev/guide/))
+1. Install the any Js framework or library you want to use(I will be using [Vite.js and React.js](https://ileolami.hashnode.dev/a-beginner-guide-on-how-to-install-and-use-vitejs))
 
 2. Install the any CSS framework or library you want to use(I will be using [TailwindCSS](https://tailwindcss.com/docs/installation/framework-guides))
 
