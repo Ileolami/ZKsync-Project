@@ -64,7 +64,9 @@ You will be asked to input your private key, grab the private key from your acco
 Use this video as a guide:
 [Watch the video](https://go.screenpal.com/watch/cZ1DFNVNdQI)
 
-After a Successful installation, you will see the following file: ![compile folder](compile_folder.jpeg)
+After a Successful installation, you will see the following file:
+
+![compile-folder](https://github.com/Ileolami/ZKsync-Project/assets/99335756/c4091c9d-e081-4c5b-8409-f7f9568d2238)
 
 ## How to compile the smart contract
 
