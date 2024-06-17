@@ -66,7 +66,7 @@ Use this video as a guide:
 
 After a Successful installation, you will see the following file:
 
-![folder](Media/compile_folder.png)
+![compile folder](Media/compile_folder.png)
 
 ## How to compile the smart contract
 
