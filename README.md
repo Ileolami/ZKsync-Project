@@ -141,7 +141,7 @@ Upon successful deployment, you will get an output containing the contract addre
 
 You can also get the contract address from the `CrowdfundingCampaign.json` under `Contract` folder as shown below.
 
-(Media/address-json.png)
+![addressjson](Media/address-json.png)
 
 
 ## How to create the application UI
