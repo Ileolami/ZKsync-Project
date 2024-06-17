@@ -64,9 +64,7 @@ You will be asked to input your private key, grab the private key from your acco
 Use this video as a guide:
 [Watch the video](https://go.screenpal.com/watch/cZ1DFNVNdQI)
 
-After a Successful installation, you will see the following file:
-
-![compile folder](compile_folder.jpeg)
+After a Successful installation, you will see the following file: ![compile folder](compile_folder.jpeg)
 
 ## How to compile the smart contract
 
