@@ -66,7 +66,7 @@ Use this video as a guide:
 
 After a Successful installation, you will see the following file:
 
-![folder](Media\folder.png)
+![folder](Media/compile_folder.png)
 
 ## How to compile the smart contract
 
@@ -101,7 +101,7 @@ Use this video as guide:
 
 After compilation, you see additional folder like this:
 
-(Media/compile%20folder.png)
+(Media/fi)
 
 ## How to deploy the smart contract on zkSYNC
 
