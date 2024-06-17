@@ -157,7 +157,7 @@ Check out the image below to see how:
 
 3. Clear out the existing from the `App.jsx` file and add the following to your:
 
-```shell
+```jsx
 <main className="min-h-screen bg-gradient-to-r from-green-400 to-blue-500 p-10">
         <div className='flex justify-between'>
           <p className=' text-lg p-5 h-16 w-62 bg-neutral-100 text-center rounded-2xl shadow-2xl'>Funding Goal:<span className="font-bold text-red-500">0</span> </p>
@@ -196,6 +196,28 @@ As earlier mentioned, for this article will you have to use a thirdweb SDK to cr
 
 ```shell
 npm install thirdweb
+```
+
+in your terminal shell.
+
+2. Import `import { ThirdwebProvider } from "thirdweb/react"`.
+
+3. Wrap the provider around the `<App />` like this:
+
+```jsx
+   <ThirdwebProvider>
+     <App />
+   </ThirdwebProvider>
+```
+
+4. Create a new file and name is    `ConnectWallet.jsx` under the `src` folder. This file will contain our connect wallet function using the thirdweb SDK.
+
+5. Import the following functions into the file,
+
+```jsx
+import { createThirdwebClient } from "thirdweb";
+
+import { ConnectButton } from "thirdweb/react";
 ```
 
 ## How to integrate the smart contract with frontend
