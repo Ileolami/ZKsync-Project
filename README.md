@@ -42,7 +42,8 @@
 
 ## Introduction
 
-zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity proofs to provide scalable and low-cost transactions on Ethereum. In zkSync Era, computation is performed off-chain and most data is stored off-chain as well. As all transactions are proven on the Ethereum mainchain, users enjoy the same security level as in Ethereum. [Learn More](hhttps://ileolami.hashnode.dev/deep-dive-into-zksync-protocol)
+zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity proofs to provide scalable and low-cost transactions on Ethereum. In zkSync Era, computation is performed off-chain and most data is stored off-chain as well. As all transactions are proven on the Ethereum mainchain, users enjoy the same security level as in Ethereum. 
+[Learn More](hhttps://ileolami.hashnode.dev/deep-dive-into-zksync-protocol)
 
 ## How to install zkSync
 
@@ -65,7 +66,7 @@ Use this video as a guide:
 
 After a Successful installation, you will see the following file:
 
-![Folder](Media/folder.png)
+(Media/folder.png)
 
 ## How to compile the smart contract
 
@@ -100,7 +101,7 @@ Use this video as guide:
 
 After compilation, you see additional folder like this:
 
-![Compile](Media/compile%20folder.png)
+(Media/compile%20folder.png)
 
 ## How to deploy the smart contract on zkSYNC
 
@@ -136,18 +137,18 @@ Use this video as a guide: [watch this video](https://go.screenpal.com/watch/cZ1
 
 Upon successful deployment, you will get an output containing the contract address, source, and encoded constructor arguments as show below.
 
-![Deploy](Media/Success-depoly.png)
+(Media/Success-depoly.png)
 
 You can also get the contract address from the `CrowdfundingCampaign.json` under `Contract` folder as shown below.
 
-![Deploy](Media/address-json.png)
+(Media/address-json.png)
 
 ## How to create the application UI
 
 In order to make your file more organised, create a new folder and move all the files and folder into the new folder you just created.
 Check out the image below to see how:
 
-![Backend Folder](Media/backendfolder.png)
+(Media/backendfolder.png)
 
 1. Install the any Js framework or library you want to use(I will be using [Vite.js and React.js](https://ileolami.hashnode.dev/a-beginner-guide-on-how-to-install-and-use-vitejs))
 
