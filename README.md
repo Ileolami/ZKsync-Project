@@ -101,7 +101,7 @@ Use this video as guide:
 
 After compilation, you see additional folder like this:
 
-(Media/fi)
+![compile](compile-folder.png)
 
 ## How to deploy the smart contract on zkSYNC
 
