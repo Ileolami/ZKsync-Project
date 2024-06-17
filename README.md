@@ -10,9 +10,9 @@
 
 4. [How to deploy the smart contract on zkSYNC](#how-to-deploy-the-smart-contract-on-zksync)
 
-5. [How to create the application UI](#how-to-create-the-application-ui)
+5. [How to create Connect Wallet](#how-to-create-connect-wallet)
 
-6. [How to create Connect Wallet](#how-to-create-connect-wallet)
+6. [How to create the application UI](#how-to-create-the-application-ui)
 
 7. [How to integrate the smart contract with frontend](#how-to-integrate-the-smart-contract-with-frontend)
 
@@ -66,7 +66,7 @@ Use this video as a guide:
 
 After a Successful installation, you will see the following file:
 
-![folder](https://github.com/Ileolami/ZKsync-Project/raw/main/compile_folder.jpeg)
+![folder](compile_folder.jpeg)
 
 ## How to compile the smart contract
 
@@ -101,7 +101,7 @@ Use this video as guide:
 
 After compilation, you see additional folder like this:
 
-(Media/fi)
+![compile](compile-folder.png)
 
 ## How to deploy the smart contract on zkSYNC
 
@@ -142,6 +142,7 @@ Upon successful deployment, you will get an output containing the contract addre
 You can also get the contract address from the `CrowdfundingCampaign.json` under `Contract` folder as shown below.
 
 (Media/address-json.png)
+
 
 ## How to create the application UI
 
@@ -185,8 +186,16 @@ Check out the image below to see how:
     </main>
 ```
 
-Note: The CSS has already been added to this
+Note: The CSS has already been added.
 
-## How to create Connect Wallet
+### How to create Connect Wallet
+
+As earlier mentioned, for this article will you have to use a thirdweb SDK to create a connect wallet. If you choose to another SDK, you can skip this step.
+
+1. Install the thirdweb SDK by running the following command:
+
+```shell
+npm install thirdweb
+```
 
 ## How to integrate the smart contract with frontend
