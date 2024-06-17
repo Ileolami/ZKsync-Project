@@ -66,7 +66,7 @@ Use this video as a guide:
 
 After a Successful installation, you will see the following file:
 
-![compile-folder](https://github.com/Ileolami/ZKsync-Project/assets/99335756/c4091c9d-e081-4c5b-8409-f7f9568d2238)
+![folder](https://github.com/Ileolami/ZKsync-Project/blob/main/compile_folder.jpeg)
 
 ## How to compile the smart contract
 
