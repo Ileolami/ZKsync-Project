@@ -43,7 +43,7 @@
 ## Introduction
 
 zkSync Era is a ZK rollup, a trustless protocol that uses cryptographic validity proofs to provide scalable and low-cost transactions on Ethereum. In zkSync Era, computation is performed off-chain and most data is stored off-chain as well. As all transactions are proven on the Ethereum mainchain, users enjoy the same security level as in Ethereum.
-[Read More](hhttps://ileolami.hashnode.dev/deep-dive-into-zksync-protocol)
+[Read More](https://ileolami.hashnode.dev/deep-dive-into-zksync-protocol)
 
 ## How to install zkSync
 
@@ -66,7 +66,7 @@ Use this video as a guide:
 
 After a Successful installation, you will see the following file:
 
-![folder](Media/folder.png)
+![folder](Media\folder.png)
 
 ## How to compile the smart contract
 
